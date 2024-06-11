@@ -1,0 +1,1709 @@
+{
+  "6892742527137601728": {
+    "name": "application",
+    "targets": {
+      "bootRun": {
+        "command": "./gradlew :application:bootRun",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "bootTestRun": {
+        "command": "./gradlew :application:bootTestRun",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "assemble": {
+        "command": "./gradlew :application:assemble",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "bootBuildImage": {
+        "command": "./gradlew :application:bootBuildImage",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "bootJar": {
+        "command": "./gradlew :application:bootJar",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "build": {
+        "command": "./gradlew :application:build",
+        "cache": true,
+        "inputs": [
+          "production",
+          "^production"
+        ],
+        "dependsOn": [
+          "^build",
+          "classes"
+        ],
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        },
+        "outputs": [
+          "{workspaceRoot}/application/build"
+        ]
+      },
+      "buildDependents": {
+        "command": "./gradlew :application:buildDependents",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "buildNeeded": {
+        "command": "./gradlew :application:buildNeeded",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "classes": {
+        "command": "./gradlew :application:classes",
+        "cache": true,
+        "inputs": [
+          "production",
+          "^production"
+        ],
+        "dependsOn": [
+          "^classes"
+        ],
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        },
+        "outputs": [
+          "{workspaceRoot}/application/build/classes"
+        ]
+      },
+      "clean": {
+        "command": "./gradlew :application:clean",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "jar": {
+        "command": "./gradlew :application:jar",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "resolveMainClassName": {
+        "command": "./gradlew :application:resolveMainClassName",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "resolveTestMainClassName": {
+        "command": "./gradlew :application:resolveTestMainClassName",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "testClasses": {
+        "command": "./gradlew :application:testClasses",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "javadoc": {
+        "command": "./gradlew :application:javadoc",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "buildEnvironment": {
+        "command": "./gradlew :application:buildEnvironment",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "dependencies": {
+        "command": "./gradlew :application:dependencies",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "dependencyInsight": {
+        "command": "./gradlew :application:dependencyInsight",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "dependencyManagement": {
+        "command": "./gradlew :application:dependencyManagement",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "help": {
+        "command": "./gradlew :application:help",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "javaToolchains": {
+        "command": "./gradlew :application:javaToolchains",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "outgoingVariants": {
+        "command": "./gradlew :application:outgoingVariants",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "projects": {
+        "command": "./gradlew :application:projects",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "properties": {
+        "command": "./gradlew :application:properties",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "resolvableConfigurations": {
+        "command": "./gradlew :application:resolvableConfigurations",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "tasks": {
+        "command": "./gradlew :application:tasks",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "projectReport": {
+        "command": "./gradlew :application:projectReport",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        },
+        "outputs": [
+          "{workspaceRoot}/application/build/reports/project"
+        ]
+      },
+      "check": {
+        "command": "./gradlew :application:check",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "test": {
+        "command": "./gradlew :application:test",
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production"
+        ],
+        "dependsOn": [
+          "classes"
+        ],
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      }
+    },
+    "metadata": {
+      "targetGroups": {
+        "Application": [
+          "bootRun",
+          "bootTestRun"
+        ],
+        "Build": [
+          "assemble",
+          "bootBuildImage",
+          "bootJar",
+          "build",
+          "buildDependents",
+          "buildNeeded",
+          "classes",
+          "clean",
+          "jar",
+          "resolveMainClassName",
+          "resolveTestMainClassName",
+          "testClasses"
+        ],
+        "Documentation": [
+          "javadoc"
+        ],
+        "Help": [
+          "buildEnvironment",
+          "dependencies",
+          "dependencyInsight",
+          "dependencyManagement",
+          "help",
+          "javaToolchains",
+          "outgoingVariants",
+          "projects",
+          "properties",
+          "resolvableConfigurations",
+          "tasks"
+        ],
+        "Reporting": [
+          "projectReport"
+        ],
+        "Verification": [
+          "check",
+          "test"
+        ]
+      },
+      "technologies": [
+        "gradle"
+      ]
+    }
+  },
+  "8768389852269266943": {
+    "name": "gradle-tutorial",
+    "targets": {
+      "bootRun": {
+        "command": "./gradlew bootRun",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "bootTestRun": {
+        "command": "./gradlew bootTestRun",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "assemble": {
+        "command": "./gradlew assemble",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "bootBuildImage": {
+        "command": "./gradlew bootBuildImage",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "bootJar": {
+        "command": "./gradlew bootJar",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "build": {
+        "command": "./gradlew build",
+        "cache": true,
+        "inputs": [
+          "production",
+          "^production"
+        ],
+        "dependsOn": [
+          "^build",
+          "classes"
+        ],
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        },
+        "outputs": [
+          "{workspaceRoot}/build"
+        ]
+      },
+      "buildDependents": {
+        "command": "./gradlew buildDependents",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "buildNeeded": {
+        "command": "./gradlew buildNeeded",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "classes": {
+        "command": "./gradlew classes",
+        "cache": true,
+        "inputs": [
+          "production",
+          "^production"
+        ],
+        "dependsOn": [
+          "^classes"
+        ],
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        },
+        "outputs": [
+          "{workspaceRoot}/build/classes"
+        ]
+      },
+      "clean": {
+        "command": "./gradlew clean",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "jar": {
+        "command": "./gradlew jar",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "resolveMainClassName": {
+        "command": "./gradlew resolveMainClassName",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "resolveTestMainClassName": {
+        "command": "./gradlew resolveTestMainClassName",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "testClasses": {
+        "command": "./gradlew testClasses",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "init": {
+        "command": "./gradlew init",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "wrapper": {
+        "command": "./gradlew wrapper",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "javadoc": {
+        "command": "./gradlew javadoc",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "buildEnvironment": {
+        "command": "./gradlew buildEnvironment",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "dependencies": {
+        "command": "./gradlew dependencies",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "dependencyInsight": {
+        "command": "./gradlew dependencyInsight",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "dependencyManagement": {
+        "command": "./gradlew dependencyManagement",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "help": {
+        "command": "./gradlew help",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "javaToolchains": {
+        "command": "./gradlew javaToolchains",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "outgoingVariants": {
+        "command": "./gradlew outgoingVariants",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "projects": {
+        "command": "./gradlew projects",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "properties": {
+        "command": "./gradlew properties",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "resolvableConfigurations": {
+        "command": "./gradlew resolvableConfigurations",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "tasks": {
+        "command": "./gradlew tasks",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "projectReport": {
+        "command": "./gradlew projectReport",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        },
+        "outputs": [
+          "{workspaceRoot}/build/reports/project"
+        ]
+      },
+      "check": {
+        "command": "./gradlew check",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "test": {
+        "command": "./gradlew test",
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production"
+        ],
+        "dependsOn": [
+          "classes"
+        ],
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      }
+    },
+    "metadata": {
+      "targetGroups": {
+        "Application": [
+          "bootRun",
+          "bootTestRun"
+        ],
+        "Build": [
+          "assemble",
+          "bootBuildImage",
+          "bootJar",
+          "build",
+          "buildDependents",
+          "buildNeeded",
+          "classes",
+          "clean",
+          "jar",
+          "resolveMainClassName",
+          "resolveTestMainClassName",
+          "testClasses"
+        ],
+        "Build Setup": [
+          "init",
+          "wrapper"
+        ],
+        "Documentation": [
+          "javadoc"
+        ],
+        "Help": [
+          "buildEnvironment",
+          "dependencies",
+          "dependencyInsight",
+          "dependencyManagement",
+          "help",
+          "javaToolchains",
+          "outgoingVariants",
+          "projects",
+          "properties",
+          "resolvableConfigurations",
+          "tasks"
+        ],
+        "Reporting": [
+          "projectReport"
+        ],
+        "Verification": [
+          "check",
+          "test"
+        ]
+      },
+      "technologies": [
+        "gradle"
+      ]
+    }
+  },
+  "7162628035830999306": {
+    "name": "library",
+    "targets": {
+      "assemble": {
+        "command": "./gradlew :library:assemble",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "build": {
+        "command": "./gradlew :library:build",
+        "cache": true,
+        "inputs": [
+          "production",
+          "^production"
+        ],
+        "dependsOn": [
+          "^build",
+          "classes"
+        ],
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        },
+        "outputs": [
+          "{workspaceRoot}/library/build"
+        ]
+      },
+      "buildDependents": {
+        "command": "./gradlew :library:buildDependents",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "buildNeeded": {
+        "command": "./gradlew :library:buildNeeded",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "classes": {
+        "command": "./gradlew :library:classes",
+        "cache": true,
+        "inputs": [
+          "production",
+          "^production"
+        ],
+        "dependsOn": [
+          "^classes"
+        ],
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        },
+        "outputs": [
+          "{workspaceRoot}/library/build/classes"
+        ]
+      },
+      "clean": {
+        "command": "./gradlew :library:clean",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "jar": {
+        "command": "./gradlew :library:jar",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "testClasses": {
+        "command": "./gradlew :library:testClasses",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "javadoc": {
+        "command": "./gradlew :library:javadoc",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "buildEnvironment": {
+        "command": "./gradlew :library:buildEnvironment",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "dependencies": {
+        "command": "./gradlew :library:dependencies",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "dependencyInsight": {
+        "command": "./gradlew :library:dependencyInsight",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "dependencyManagement": {
+        "command": "./gradlew :library:dependencyManagement",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "help": {
+        "command": "./gradlew :library:help",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "javaToolchains": {
+        "command": "./gradlew :library:javaToolchains",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "outgoingVariants": {
+        "command": "./gradlew :library:outgoingVariants",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "projects": {
+        "command": "./gradlew :library:projects",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "properties": {
+        "command": "./gradlew :library:properties",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "resolvableConfigurations": {
+        "command": "./gradlew :library:resolvableConfigurations",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "tasks": {
+        "command": "./gradlew :library:tasks",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "projectReport": {
+        "command": "./gradlew :library:projectReport",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        },
+        "outputs": [
+          "{workspaceRoot}/library/build/reports/project"
+        ]
+      },
+      "check": {
+        "command": "./gradlew :library:check",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "test": {
+        "command": "./gradlew :library:test",
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production"
+        ],
+        "dependsOn": [
+          "classes"
+        ],
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      }
+    },
+    "metadata": {
+      "targetGroups": {
+        "Build": [
+          "assemble",
+          "build",
+          "buildDependents",
+          "buildNeeded",
+          "classes",
+          "clean",
+          "jar",
+          "testClasses"
+        ],
+        "Documentation": [
+          "javadoc"
+        ],
+        "Help": [
+          "buildEnvironment",
+          "dependencies",
+          "dependencyInsight",
+          "dependencyManagement",
+          "help",
+          "javaToolchains",
+          "outgoingVariants",
+          "projects",
+          "properties",
+          "resolvableConfigurations",
+          "tasks"
+        ],
+        "Reporting": [
+          "projectReport"
+        ],
+        "Verification": [
+          "check",
+          "test"
+        ]
+      },
+      "technologies": [
+        "gradle"
+      ]
+    }
+  },
+  "9590610526393977005": {
+    "name": "application",
+    "targets": {
+      "bootRun": {
+        "command": "./gradlew :application:bootRun",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "bootTestRun": {
+        "command": "./gradlew :application:bootTestRun",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "assemble": {
+        "command": "./gradlew :application:assemble",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "bootBuildImage": {
+        "command": "./gradlew :application:bootBuildImage",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "bootJar": {
+        "command": "./gradlew :application:bootJar",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "build": {
+        "command": "./gradlew :application:build",
+        "cache": true,
+        "inputs": [
+          "production",
+          "^production"
+        ],
+        "dependsOn": [
+          "^build",
+          "classes"
+        ],
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        },
+        "outputs": [
+          "{workspaceRoot}/application/build"
+        ]
+      },
+      "buildDependents": {
+        "command": "./gradlew :application:buildDependents",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "buildNeeded": {
+        "command": "./gradlew :application:buildNeeded",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "classes": {
+        "command": "./gradlew :application:classes",
+        "cache": true,
+        "inputs": [
+          "production",
+          "^production"
+        ],
+        "dependsOn": [
+          "^classes"
+        ],
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        },
+        "outputs": [
+          "{workspaceRoot}/application/build/classes"
+        ]
+      },
+      "clean": {
+        "command": "./gradlew :application:clean",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "jar": {
+        "command": "./gradlew :application:jar",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "resolveMainClassName": {
+        "command": "./gradlew :application:resolveMainClassName",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "resolveTestMainClassName": {
+        "command": "./gradlew :application:resolveTestMainClassName",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "testClasses": {
+        "command": "./gradlew :application:testClasses",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "javadoc": {
+        "command": "./gradlew :application:javadoc",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "buildEnvironment": {
+        "command": "./gradlew :application:buildEnvironment",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "dependencies": {
+        "command": "./gradlew :application:dependencies",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "dependencyInsight": {
+        "command": "./gradlew :application:dependencyInsight",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "dependencyManagement": {
+        "command": "./gradlew :application:dependencyManagement",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "help": {
+        "command": "./gradlew :application:help",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "javaToolchains": {
+        "command": "./gradlew :application:javaToolchains",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "outgoingVariants": {
+        "command": "./gradlew :application:outgoingVariants",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "projects": {
+        "command": "./gradlew :application:projects",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "properties": {
+        "command": "./gradlew :application:properties",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "resolvableConfigurations": {
+        "command": "./gradlew :application:resolvableConfigurations",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "tasks": {
+        "command": "./gradlew :application:tasks",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "projectReport": {
+        "command": "./gradlew :application:projectReport",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        },
+        "outputs": [
+          "{workspaceRoot}/application/build/reports/project"
+        ]
+      },
+      "check": {
+        "command": "./gradlew :application:check",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "test": {
+        "command": "./gradlew :application:test",
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production"
+        ],
+        "dependsOn": [
+          "classes"
+        ],
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      }
+    },
+    "metadata": {
+      "targetGroups": {
+        "Application": [
+          "bootRun",
+          "bootTestRun"
+        ],
+        "Build": [
+          "assemble",
+          "bootBuildImage",
+          "bootJar",
+          "build",
+          "buildDependents",
+          "buildNeeded",
+          "classes",
+          "clean",
+          "jar",
+          "resolveMainClassName",
+          "resolveTestMainClassName",
+          "testClasses"
+        ],
+        "Documentation": [
+          "javadoc"
+        ],
+        "Help": [
+          "buildEnvironment",
+          "dependencies",
+          "dependencyInsight",
+          "dependencyManagement",
+          "help",
+          "javaToolchains",
+          "outgoingVariants",
+          "projects",
+          "properties",
+          "resolvableConfigurations",
+          "tasks"
+        ],
+        "Reporting": [
+          "projectReport"
+        ],
+        "Verification": [
+          "check",
+          "test"
+        ]
+      },
+      "technologies": [
+        "gradle"
+      ]
+    }
+  },
+  "1296767332996135641": {
+    "name": "gradle-tutorial",
+    "targets": {
+      "bootRun": {
+        "command": "./gradlew bootRun",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "bootTestRun": {
+        "command": "./gradlew bootTestRun",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "assemble": {
+        "command": "./gradlew assemble",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "bootBuildImage": {
+        "command": "./gradlew bootBuildImage",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "bootJar": {
+        "command": "./gradlew bootJar",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "build": {
+        "command": "./gradlew build",
+        "cache": true,
+        "inputs": [
+          "production",
+          "^production"
+        ],
+        "dependsOn": [
+          "^build",
+          "classes"
+        ],
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        },
+        "outputs": [
+          "{workspaceRoot}/build"
+        ]
+      },
+      "buildDependents": {
+        "command": "./gradlew buildDependents",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "buildNeeded": {
+        "command": "./gradlew buildNeeded",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "classes": {
+        "command": "./gradlew classes",
+        "cache": true,
+        "inputs": [
+          "production",
+          "^production"
+        ],
+        "dependsOn": [
+          "^classes"
+        ],
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        },
+        "outputs": [
+          "{workspaceRoot}/build/classes"
+        ]
+      },
+      "clean": {
+        "command": "./gradlew clean",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "jar": {
+        "command": "./gradlew jar",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "resolveMainClassName": {
+        "command": "./gradlew resolveMainClassName",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "resolveTestMainClassName": {
+        "command": "./gradlew resolveTestMainClassName",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "testClasses": {
+        "command": "./gradlew testClasses",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "init": {
+        "command": "./gradlew init",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "wrapper": {
+        "command": "./gradlew wrapper",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "javadoc": {
+        "command": "./gradlew javadoc",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "buildEnvironment": {
+        "command": "./gradlew buildEnvironment",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "dependencies": {
+        "command": "./gradlew dependencies",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "dependencyInsight": {
+        "command": "./gradlew dependencyInsight",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "dependencyManagement": {
+        "command": "./gradlew dependencyManagement",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "help": {
+        "command": "./gradlew help",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "javaToolchains": {
+        "command": "./gradlew javaToolchains",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "outgoingVariants": {
+        "command": "./gradlew outgoingVariants",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "projects": {
+        "command": "./gradlew projects",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "properties": {
+        "command": "./gradlew properties",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "resolvableConfigurations": {
+        "command": "./gradlew resolvableConfigurations",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "tasks": {
+        "command": "./gradlew tasks",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "projectReport": {
+        "command": "./gradlew projectReport",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        },
+        "outputs": [
+          "{workspaceRoot}/build/reports/project"
+        ]
+      },
+      "check": {
+        "command": "./gradlew check",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "test": {
+        "command": "./gradlew test",
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production"
+        ],
+        "dependsOn": [
+          "classes"
+        ],
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      }
+    },
+    "metadata": {
+      "targetGroups": {
+        "Application": [
+          "bootRun",
+          "bootTestRun"
+        ],
+        "Build": [
+          "assemble",
+          "bootBuildImage",
+          "bootJar",
+          "build",
+          "buildDependents",
+          "buildNeeded",
+          "classes",
+          "clean",
+          "jar",
+          "resolveMainClassName",
+          "resolveTestMainClassName",
+          "testClasses"
+        ],
+        "Build Setup": [
+          "init",
+          "wrapper"
+        ],
+        "Documentation": [
+          "javadoc"
+        ],
+        "Help": [
+          "buildEnvironment",
+          "dependencies",
+          "dependencyInsight",
+          "dependencyManagement",
+          "help",
+          "javaToolchains",
+          "outgoingVariants",
+          "projects",
+          "properties",
+          "resolvableConfigurations",
+          "tasks"
+        ],
+        "Reporting": [
+          "projectReport"
+        ],
+        "Verification": [
+          "check",
+          "test"
+        ]
+      },
+      "technologies": [
+        "gradle"
+      ]
+    }
+  }
+}

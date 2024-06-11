@@ -1,0 +1,122 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.2.3",
+  "deps": {
+    "nx": "19.2.3",
+    "@nx/gradle": "19.2.3"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/gradle",
+      "version": "19.2.3",
+      "options": {
+        "testTargetName": "test",
+        "classesTargetName": "classes",
+        "buildTargetName": "build"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [],
+    "projectFileMap": {
+      "gradle-tutorial": [
+        {
+          "file": ".gitignore",
+          "hash": "4885119873161115981"
+        },
+        {
+          "file": ".nx/nxw.js",
+          "hash": "11254603345854076312"
+        },
+        {
+          "file": "README.md",
+          "hash": "2816957326371554980"
+        },
+        {
+          "file": "build.gradle",
+          "hash": "6776876968973565169"
+        },
+        {
+          "file": "gradle/wrapper/gradle-wrapper.jar",
+          "hash": "4964452923295747250"
+        },
+        {
+          "file": "gradle/wrapper/gradle-wrapper.properties",
+          "hash": "6992607940248896982"
+        },
+        {
+          "file": "gradlew",
+          "hash": "6979324130797723579"
+        },
+        {
+          "file": "gradlew.bat",
+          "hash": "8837338129170646035"
+        },
+        {
+          "file": "nx",
+          "hash": "17165975525224888679"
+        },
+        {
+          "file": "nx.bat",
+          "hash": "16119536321561623970"
+        },
+        {
+          "file": "nx.json",
+          "hash": "4412254793698070599"
+        },
+        {
+          "file": "settings.gradle",
+          "hash": "5690477904066095133"
+        }
+      ],
+      "library": [
+        {
+          "file": "library/build.gradle",
+          "hash": "10874096726061397019"
+        },
+        {
+          "file": "library/settings.gradle",
+          "hash": "13735992102452590570"
+        },
+        {
+          "file": "library/src/main/java/com/example/multimodule/service/MyService.java",
+          "hash": "1785389597461451392"
+        },
+        {
+          "file": "library/src/main/java/com/example/multimodule/service/ServiceProperties.java",
+          "hash": "5222601539204689670"
+        },
+        {
+          "file": "library/src/test/java/com/example/multimodule/service/MyServiceTest.java",
+          "hash": "7173828893536126792"
+        }
+      ],
+      "application": [
+        {
+          "file": "application/build.gradle",
+          "hash": "13223387111008998466",
+          "deps": [
+            "library"
+          ]
+        },
+        {
+          "file": "application/settings.gradle",
+          "hash": "18286272227920383284"
+        },
+        {
+          "file": "application/src/main/java/com/example/multimodule/application/DemoApplication.java",
+          "hash": "6398155587348722570"
+        },
+        {
+          "file": "application/src/main/resources/application.properties",
+          "hash": "18341909134911292471"
+        },
+        {
+          "file": "application/src/test/java/com/example/multimodule/application/DemoApplicationTest.java",
+          "hash": "12794301020412404095"
+        }
+      ]
+    }
+  }
+}
