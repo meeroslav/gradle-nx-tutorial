@@ -205,3 +205,22 @@
 [NX Daemon Server] - 2024-06-11T11:50:46.071Z - Handled RECORD_OUTPUTS_HASH. Handling time: 2. Response time: 0.
 [NX Daemon Server] - 2024-06-11T11:50:46.087Z - Closed a connection. Number of open connections: 0
 [NX Daemon Server] - 2024-06-11T11:50:46.127Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T11:53:41.655Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T11:53:41.655Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-11T11:53:41.655Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T11:53:41.656Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-11T11:53:41.656Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-11T11:53:41.657Z - Time taken for 'total for creating and serializing project graph' 0.1575839999713935ms
+[NX Daemon Server] - 2024-06-11T11:53:41.657Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-11T11:53:41.657Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-06-11T11:54:09.474Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-11T11:54:09.535Z - [WATCHER]: .github/workflows/ci.yml was created or restored
+[NX Daemon Server] - 2024-06-11T11:54:09.535Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T11:54:09.637Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T11:54:09.637Z - [REQUEST]: .github/workflows/ci.yml
+[NX Daemon Server] - 2024-06-11T11:54:09.637Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T11:54:09.643Z - Time taken for 'hash changed files from watcher' 0.3414999999804422ms
+[NX Daemon Server] - 2024-06-11T11:54:10.036Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T11:54:10.145Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T11:54:10.196Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T11:54:10.544Z - Time taken for 'build-project-configs' 903.7305829999968ms
