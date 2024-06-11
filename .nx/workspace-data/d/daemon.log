@@ -224,3 +224,13 @@
 [NX Daemon Server] - 2024-06-11T11:54:10.145Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2024-06-11T11:54:10.196Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2024-06-11T11:54:10.544Z - Time taken for 'build-project-configs' 903.7305829999968ms
+[NX Daemon Server] - 2024-06-11T11:56:06.903Z - [WATCHER]: nx.json was modified
+[NX Daemon Server] - 2024-06-11T11:56:06.903Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T11:56:07.105Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T11:56:07.105Z - [REQUEST]: nx.json
+[NX Daemon Server] - 2024-06-11T11:56:07.105Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T11:56:07.112Z - Time taken for 'hash changed files from watcher' 0.46291599998949096ms
+[NX Daemon Server] - 2024-06-11T11:56:07.506Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T11:56:07.601Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T11:56:07.653Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T11:56:08.017Z - Time taken for 'build-project-configs' 905.6354590000119ms
