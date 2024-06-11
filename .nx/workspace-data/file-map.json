@@ -71,7 +71,7 @@
         },
         {
           "file": ".github/workflows/ci.yml",
-          "hash": "12711727322810346332"
+          "hash": "12748587973323818262"
         }
       ],
       "library": [
@@ -110,7 +110,7 @@
         },
         {
           "file": "application/src/main/java/com/example/multimodule/application/DemoApplication.java",
-          "hash": "6398155587348722570"
+          "hash": "12704059945556644119"
         },
         {
           "file": "application/src/main/resources/application.properties",
